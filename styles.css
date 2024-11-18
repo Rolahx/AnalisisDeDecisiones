@@ -1,0 +1,67 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menú Principal */
+.menu-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0a500; /* Color similar al fondo del logo */
+    color: #ffffff;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #0d47a1; /* Azul del logo */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #08306b; /* Azul oscuro */
+}
+
+/* Sección de la calculadora */
+#calculadora {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+h2 {
+    color: #0d47a1; /* Azul */
+    text-align: center;
+}
+
+#canvasContainer {
+    width: 100%;
+    height: 500px;
+    border: 2px solid #0d47a1;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+#decisionTreeCanvas {
+    width: 100%;
+    height: 100%;
+}
